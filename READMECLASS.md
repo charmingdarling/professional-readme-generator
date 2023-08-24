@@ -2,15 +2,17 @@
 
 ## Your Task
 
-Your task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer/v/8.2.4).
-
-Review the [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) as a reminder of everything that a high-quality, professional README should contain.
+Our task is to create a command-line application that generates a professional README.md file dynamically based off a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer/v/8.2.4).
 
 The application will be invoked by using the following command:
 
 ```bash
 node index.js
 ```
+
+This application will not be deployed. Here is the link that as a walkthrough video to demonstrate the functionality:
+
+[Link](/.)
 
 Because this application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality. Revisit the Screencastify Tutorial in the prework as a refresher on how to record video from your computer. You’ll need to submit a link to the video _and_ add it to the README of your project.
 
