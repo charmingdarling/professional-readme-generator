@@ -31,16 +31,29 @@ function renderLicenseBadge(license) {
 function generateMarkdown(data) {
   // Whatever the user types in from the index with the data.xyz is returned. We are using the dot notation of the object
   return `
-# Title: \n ${data.title}
-## License: \n  ### ${renderLicenseBadge(data.license)}
-## Description: \n ### ${data.description}
-## Table of Contents: \n  ### 
-## Installation: \n  ### ${data.install}
-## Usage: \n  ### ${data.usage} 
-## Tests: \n  ### ${data.test}
-## How to Contribute: \n  ### ${data.contribution}
-## GitHub: \n  ### [${data.GitHub}](https://github.com/${data.GitHub})
-## Questions: \n  ### You may reach me at ${
+# ${data.title}
+## License: 
+  ### ${renderLicenseBadge(data.license)}
+## Table of Contents: 
+  ### [Table of Contents](#table-of-contents-table-of-contents)
+  ### [Description](#description)
+  ### [Installation](#installation)
+  ### [Usage](#usage)
+  ### [Contribution](#how-to-contribute)
+## Description:
+  ### ${data.description}
+## Installation:  
+  ### ${data.install}
+## Usage: 
+  ### ${data.usage} 
+## Tests: 
+  ### ${data.test}
+## How to Contribute: 
+  ### ${data.contribution}
+## GitHub: 
+  ### [${data.GitHub}](https://github.com/${data.GitHub})
+## Questions: 
+  ### You may reach me at ${
     data.email
   } for any questions regarding this project.
 
